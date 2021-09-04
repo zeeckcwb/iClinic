@@ -2,7 +2,7 @@
 A utilização do site é simplista e direta, com foco no objeto de cadastramento de uma clínica, inicializará na página home, a qual contém um slide e imagens e botões para cadastramento.
 Para cadastrar uma clínica deve-se clicar em `CADASTRE SUA CLÍNICA` no header, ou no botão `CADASTRAR` na home, ou nos `LINKS` descendo a página até o segundo bloco de exibição o qual contém informações sobre a empresa.
 
-Tive uma ótima desenvoltura no desenvolvimento da estilização do css e estruturação do html, chegando na parte de funções de get do CEP, post para API, get da API, validações do form, acabei demorando mais do que a parte anterior mas também acabei desenvolvendo em um tempo bom.
+Tive uma ótima desenvoltura no desenvolvimento da estilização do css e estruturação do html, chegando na parte de funções de get do CEP, post para API, get da API, validações do form, acabei demorando mais do que a parte anterior mas também acabei desenvolvendo em um tempo bom. 
 
 ## Como executar o app
 Instalar as seguintes dependências:
