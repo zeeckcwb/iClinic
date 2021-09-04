@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# App em execução
+A utilização do site é simplista e direta, com foco no objeto de cadastramento de uma clínica, inicializará na página home, a qual contém um slide e imagens e botões para cadastramento.
+Para cadastrar uma clínica deve-se clicar em `CADASTRE SUA CLÍNICA` no header, ou no botão `CADASTRAR` na home, ou nos `LINKS` descendo a página até o segundo bloco de exibição o qual contém informações sobre a empresa.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tive uma ótima desenvoltura no desenvolvimento da estilização do css e estruturação do html, chegando na parte de funções de get do CEP, post para API, get da API, validações do form, acabei demorando mais do que a parte anterior mas também acabei desenvolvendo em um tempo bom.
 
-## Available Scripts
+## Como executar o app
+Instalar as seguintes dependências:
+- `npm i jquery-mask-plugin`
+- `npm install sweetalert2`
+- `npm install --save react-background-slider`
+- `npm install react-icons --save`
 
-In the project directory, you can run:
+Após as dependências instaladas:
+- `npm start`
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Frameworks utilizados
+Para estilização optei por utilizar SASS, pois me dou melhor com a estilização estruturada da forma que o SASS é, sinto que desenvolvo mais rápido e com maior facilidade utilizando essa ferramenta.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para a parte de funcionalidades da aplicação acabei optando por alguns pacotes prontos e blibliotecas Jquery.
+- Jquery para máscara de CPF, Valor e CEP no formulário.
+- Sweet Alert2 para exibição de um alert personalizado quando utilizado o alert() do js.
+- Background Slider para exibição de um slider de imagens na Home
+- React Icons para utilização de ícone de seta na Home
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Experiência com o projeto
+Este projeto pode aprimorar grandemente a minha experiência na parte técnica com desenvolvimento em reactJS, utilizando alguns pacotes e bibliotecas que eu ainda não conhecia e que são de grande utilidade.
 
-### `npm run build`
+Assim como também me desafiou na parte teórica, pensando nas regras de negócio, criando um layout inicialmente inexistente, pensando sempre em UI/UX na criação do layout, e um desafio que fiquei muito orgulhoso de ter conseguido realizar ao ponto em que está.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Futuro do projeto
+- Implementar uma versão mobile e maior responsividade, pois a primeiro momento foi desenvolvido somente visando a utilização em desktop.
+- Alterar a forma como é feita as rotas de troca das páginas no reactJS.
+- Melhorar a parte de validação do formulário.
+- Alterar a forma que a listagem de clínicas é exibida em tela.
+- Implementar um botão para a exclusão de uma clínica em específico.
+- Implementar uma API de melhor qualidade e confiabilidade.
